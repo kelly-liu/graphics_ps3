@@ -1,0 +1,2 @@
+/Users/kellyliu/Documents/Senior/837/starter3/build/vecmath/CMakeFiles/vecmath.dir
+/Users/kellyliu/Documents/Senior/837/starter3/build/src/CMakeFiles/a3.dir
