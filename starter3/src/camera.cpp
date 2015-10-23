@@ -1,5 +1,4 @@
 #include "camera.h"
-
 #include <iostream>
 #include "extra.h"
 

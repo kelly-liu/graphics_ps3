@@ -1,6 +1,6 @@
 
 #include "simpleSystem.h"
-
+#include <iostream>
 using namespace std;
 
 SimpleSystem::SimpleSystem()
@@ -13,8 +13,10 @@ vector<Vector3f> SimpleSystem::evalF(vector<Vector3f> state)
 {
 	vector<Vector3f> f;
 
-	// YOUR CODE HERE
-
+	for(int i = 0; i < state.size(); i++) {
+		Vector3f derive = {-state[i][1], state[i][0], 0};
+		f.push_back(derive);
+	}
 	return f;
 }
 

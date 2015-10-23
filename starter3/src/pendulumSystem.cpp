@@ -1,6 +1,6 @@
 
 #include "pendulumSystem.h"
-
+#include <iostream>
 PendulumSystem::PendulumSystem(int numParticles):ParticleSystem(numParticles)
 {
 	m_numParticles = numParticles;
