@@ -14,26 +14,27 @@ void ForwardEuler::takeStep(ParticleSystem* particleSystem, float stepSize)
 		nextState.push_back(s);
 	}
 
-	particleSystem.setState(nextState);
+	particleSystem->setState(nextState);
 	
 }
 
 ///TODO: implement Trapzoidal rule here
-void Trapzoidal::takeStep(ParticleSystem* particleSystem, float stepSize)
+void Trapezoidal::takeStep(ParticleSystem* particleSystem, float stepSize)
 {
-	vector<Vector3f> nextState;
+	std::vector<Vector3f> nextState;
 	vector<Vector3f> state = particleSystem->getState();
-	vector<Vector3f> deriv_0 = particleSystem->evalF(state);
-	Vector3f<Vector3f> deriv_1;
+	vector<Vector3f> f_0 = particleSystem->evalF(state);
+	vector<Vector3f> state_1;
 	for (int i = 0; i < state.size(); i++) {
-		Vector3f s = state[i] + deriv_0[i] * stepSize;
-		deriv_1.push_back(s);
+		Vector3f s = state[i] + f_0[i] * stepSize;
+		state_1.push_back(s);
 	}
+	vector<Vector3f> f_1 = particleSystem->evalF(state_1);
 
 	for (int i = 0; i < state.size(); i++) {
-		Vector3f s = state[i] + (stepSize/2.0)*(deriv_0[i] + deriv_1[i]);
+		Vector3f s = state[i] + (stepSize/2.0)*(f_0[i] + f_1[i]);
 		nextState.push_back(s);
 	}
 
-	particleSystem.setState(nextState);
+	particleSystem->setState(nextState);
 }

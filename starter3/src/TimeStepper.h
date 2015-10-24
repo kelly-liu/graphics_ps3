@@ -19,7 +19,7 @@ class ForwardEuler:public TimeStepper
   void takeStep(ParticleSystem* particleSystem, float stepSize);
 };
 
-class Trapzoidal:public TimeStepper
+class Trapezoidal:public TimeStepper
 {
   void takeStep(ParticleSystem* particleSystem, float stepSize);
 };

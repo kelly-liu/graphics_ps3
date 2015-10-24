@@ -55,3 +55,5 @@ None
 
 Comments about Assignment
 =========================
+
+PENDULUM: NEED LOW STEP SIZE (<.05) TO NOT EXPLODE

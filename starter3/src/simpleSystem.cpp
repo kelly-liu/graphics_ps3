@@ -5,6 +5,7 @@ using namespace std;
 
 SimpleSystem::SimpleSystem()
 {
+	m_vVecState.push_back(Vector3f(1,1,1)); //initialize with a value
 }
 
 // TODO: implement evalF
@@ -23,8 +24,8 @@ vector<Vector3f> SimpleSystem::evalF(vector<Vector3f> state)
 // render the system (ie draw the particles)
 void SimpleSystem::draw()
 {
-		Vector3f pos ;//YOUR PARTICLE POSITION
-	  glPushMatrix();
+		Vector3f pos = m_vVecState[0];//YOUR PARTICLE POSITION
+	    glPushMatrix();
 		glTranslatef(pos[0], pos[1], pos[2] );
 		glutSolidSphere(0.075f,10.0f,10.0f);
 		glPopMatrix();

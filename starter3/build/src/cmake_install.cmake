@@ -1,8 +1,8 @@
-# Install script for directory: /Users/kellyliu/Documents/Senior/837/starter3/src
+# Install script for directory: //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/kellyliu/Documents/Senior/837/starter3/inst")
+  set(CMAKE_INSTALL_PREFIX "/Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/inst")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,21 +29,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/kellyliu/Documents/Senior/837/starter3/inst/a3")
+   "/Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/inst/a3")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/kellyliu/Documents/Senior/837/starter3/inst" TYPE EXECUTABLE FILES "/Users/kellyliu/Documents/Senior/837/starter3/build/src/a3")
-  if(EXISTS "$ENV{DESTDIR}/Users/kellyliu/Documents/Senior/837/starter3/inst/a3" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/Users/kellyliu/Documents/Senior/837/starter3/inst/a3")
+file(INSTALL DESTINATION "/Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/inst" TYPE EXECUTABLE FILES "//Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/src/a3")
+  if(EXISTS "$ENV{DESTDIR}/Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/inst/a3" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/inst/a3")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/kellyliu/Documents/Senior/837/starter3/lib"
-      "$ENV{DESTDIR}/Users/kellyliu/Documents/Senior/837/starter3/inst/a3")
+      -delete_rpath "//Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/lib"
+      "$ENV{DESTDIR}/Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/inst/a3")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "$ENV{DESTDIR}/Users/kellyliu/Documents/Senior/837/starter3/inst/a3")
+      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "$ENV{DESTDIR}/Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/inst/a3")
     endif()
   endif()
 endif()

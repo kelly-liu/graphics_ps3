@@ -10,10 +10,10 @@ src/CMakeFiles/a3.dir/ClothSystem.cpp.o
  ../vecmath/include/Vector3f.h
  ../vecmath/include/Vector4f.h
  ../vecmath/include/vecmath.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/ClothSystem.cpp
- /Users/kellyliu/Documents/Senior/837/starter3/src/ClothSystem.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/extra.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/particleSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/ClothSystem.cpp
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/ClothSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/extra.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/particleSystem.h
 src/CMakeFiles/a3.dir/TimeStepper.cpp.o
  ../vecmath/include/Matrix2f.h
  ../vecmath/include/Matrix3f.h
@@ -23,9 +23,9 @@ src/CMakeFiles/a3.dir/TimeStepper.cpp.o
  ../vecmath/include/Vector3f.h
  ../vecmath/include/Vector4f.h
  ../vecmath/include/vecmath.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/TimeStepper.cpp
- /Users/kellyliu/Documents/Senior/837/starter3/src/TimeStepper.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/particleSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/TimeStepper.cpp
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/TimeStepper.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/particleSystem.h
 src/CMakeFiles/a3.dir/camera.cpp.o
  ../vecmath/include/Matrix2f.h
  ../vecmath/include/Matrix3f.h
@@ -35,9 +35,9 @@ src/CMakeFiles/a3.dir/camera.cpp.o
  ../vecmath/include/Vector3f.h
  ../vecmath/include/Vector4f.h
  ../vecmath/include/vecmath.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/camera.cpp
- /Users/kellyliu/Documents/Senior/837/starter3/src/camera.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/extra.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/camera.cpp
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/camera.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/extra.h
 src/CMakeFiles/a3.dir/main.cpp.o
  ../vecmath/include/Matrix2f.h
  ../vecmath/include/Matrix3f.h
@@ -47,12 +47,14 @@ src/CMakeFiles/a3.dir/main.cpp.o
  ../vecmath/include/Vector3f.h
  ../vecmath/include/Vector4f.h
  ../vecmath/include/vecmath.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/TimeStepper.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/camera.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/extra.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/main.cpp
- /Users/kellyliu/Documents/Senior/837/starter3/src/particleSystem.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/simpleSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/TimeStepper.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/camera.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/clothSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/extra.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/main.cpp
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/particleSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/pendulumSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/simpleSystem.h
 src/CMakeFiles/a3.dir/particleSystem.cpp.o
  ../vecmath/include/Matrix2f.h
  ../vecmath/include/Matrix3f.h
@@ -62,8 +64,8 @@ src/CMakeFiles/a3.dir/particleSystem.cpp.o
  ../vecmath/include/Vector3f.h
  ../vecmath/include/Vector4f.h
  ../vecmath/include/vecmath.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/particleSystem.cpp
- /Users/kellyliu/Documents/Senior/837/starter3/src/particleSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/particleSystem.cpp
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/particleSystem.h
 src/CMakeFiles/a3.dir/pendulumSystem.cpp.o
  ../vecmath/include/Matrix2f.h
  ../vecmath/include/Matrix3f.h
@@ -73,10 +75,10 @@ src/CMakeFiles/a3.dir/pendulumSystem.cpp.o
  ../vecmath/include/Vector3f.h
  ../vecmath/include/Vector4f.h
  ../vecmath/include/vecmath.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/extra.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/particleSystem.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/pendulumSystem.cpp
- /Users/kellyliu/Documents/Senior/837/starter3/src/pendulumSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/extra.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/particleSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/pendulumSystem.cpp
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/pendulumSystem.h
 src/CMakeFiles/a3.dir/simpleSystem.cpp.o
  ../vecmath/include/Matrix2f.h
  ../vecmath/include/Matrix3f.h
@@ -86,7 +88,7 @@ src/CMakeFiles/a3.dir/simpleSystem.cpp.o
  ../vecmath/include/Vector3f.h
  ../vecmath/include/Vector4f.h
  ../vecmath/include/vecmath.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/extra.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/particleSystem.h
- /Users/kellyliu/Documents/Senior/837/starter3/src/simpleSystem.cpp
- /Users/kellyliu/Documents/Senior/837/starter3/src/simpleSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/extra.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/particleSystem.h
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/simpleSystem.cpp
+ //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/src/simpleSystem.h

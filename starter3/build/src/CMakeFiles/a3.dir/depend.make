@@ -48,9 +48,11 @@ src/CMakeFiles/a3.dir/main.cpp.o: ../vecmath/include/Vector4f.h
 src/CMakeFiles/a3.dir/main.cpp.o: ../vecmath/include/vecmath.h
 src/CMakeFiles/a3.dir/main.cpp.o: ../src/TimeStepper.h
 src/CMakeFiles/a3.dir/main.cpp.o: ../src/camera.h
+src/CMakeFiles/a3.dir/main.cpp.o: ../src/clothSystem.h
 src/CMakeFiles/a3.dir/main.cpp.o: ../src/extra.h
 src/CMakeFiles/a3.dir/main.cpp.o: ../src/main.cpp
 src/CMakeFiles/a3.dir/main.cpp.o: ../src/particleSystem.h
+src/CMakeFiles/a3.dir/main.cpp.o: ../src/pendulumSystem.h
 src/CMakeFiles/a3.dir/main.cpp.o: ../src/simpleSystem.h
 
 src/CMakeFiles/a3.dir/particleSystem.cpp.o: ../vecmath/include/Matrix2f.h

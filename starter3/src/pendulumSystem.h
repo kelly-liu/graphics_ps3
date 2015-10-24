@@ -14,7 +14,13 @@ public:
 	vector<Vector3f> evalF(vector<Vector3f> state);
 	
 	void draw();
-	
+
+	Vector3f getPosition(vector<Vector3f> state, int particle);
+	Vector3f getVelocity(vector<Vector3f> state, int particle);
+
+	void showParticleSprings(int particle);
+	void showSprings();
+
 };
 
 #endif

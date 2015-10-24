@@ -24,11 +24,23 @@ public:
 	void setState(const vector<Vector3f>  & newState) { m_vVecState = newState; };
 	
 	virtual void draw() = 0;
+
+	virtual void showParticleSprings(int particle) = 0;
+	virtual void showSprings() = 0;
 	
 protected:
 
 	vector<Vector3f> m_vVecState;
-	
+	float m;
+	Vector3f g;
+	float drag_const;
+	float spring_const;
+	float restLength;
+	vector<vector<int>> springs;
+	// vector<vector<Vector3f>> springs;
+
+	int particleSpringDraw;
+	bool drawAllSprings;
 };
 
 #endif

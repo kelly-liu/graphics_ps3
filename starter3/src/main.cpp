@@ -3,6 +3,7 @@
 #include <ctime>
 #include <iostream>
 #include <vector>
+#include <sstream>
 
 #include "extra.h"
 #include "camera.h"
@@ -11,6 +12,8 @@
 
 #include "TimeStepper.h"
 #include "simpleSystem.h"
+#include "pendulumSystem.h"
+#include "clothSystem.h"
 
 using namespace std;
 
@@ -20,15 +23,59 @@ namespace
 
     ParticleSystem *system;
     TimeStepper * timeStepper;
+    float h = .04f;
+    int particle_spring;
 
   // initialize your particle systems
   ///TODO: read argv here. set timestepper , step size etc
   void initSystem(int argc, char * argv[])
   {
+    //default settings
+    timeStepper = new RK4();
+    system = new PendulumSystem(4);
+
+    //adjusting settings
+    for (int i = 1; i < argc; i++)
+    {
+        if (strcmp(argv[i],"ForwardEuler")== 0){
+            cout << "fe" << endl;
+            timeStepper = new ForwardEuler();
+        }
+        else if (strcmp(argv[i],"Trapezoidal") == 0) {
+            cout << "trap" << endl;
+            timeStepper = new Trapezoidal();
+        }
+        else if (strcmp(argv[i],"RK4") == 0) {
+            cout << "rk4" << endl;
+            timeStepper = new RK4();
+        }
+        else if (strcmp(argv[i],"--stepsize") == 0) {
+            std::istringstream iss(argv[i+1]);
+            iss>>h;
+            // cout << "hi" << endl;
+            // h = argv[i+1];
+            cout << h << endl;
+            // && argv[i+1] != NULL)
+        }
+        else if (strcmp(argv[i], "--show_particle_springs") == 0) {
+            std::istringstream iss(argv[i+1]);
+            iss>>particle_spring;
+            system->showParticleSprings(particle_spring);
+        }
+
+        // else if (strncmp(argv[i], "Simple")) {
+        //     system = new SimpleSystem();
+        // }
+        // else if (strncmp(argv[i], "Pendulum")) {
+        //     system = new PendulumSystem();
+        // }
+        // else if (strncmp(argv[i], "Cloth")) {
+        //     system = new ClothSystem();
+        // }
+    }
+
     // seed the random number generator with the current time
     srand( time( NULL ) );
-    system = new SimpleSystem();
-    timeStepper = new RK4();		
   }
 
   // Take a step forward for the particle shower
@@ -37,7 +84,6 @@ namespace
   void stepSystem()
   {
       ///TODO The stepsize should change according to commandline arguments
-    const float h = 0.04f;
     if(timeStepper!=0){
       timeStepper->takeStep(system,h);
     }
@@ -102,6 +148,10 @@ namespace
             camera.SetRotation( eye );
             camera.SetCenter( Vector3f::ZERO );
             break;
+        }
+        case 's':
+        {
+            system->showSprings();
         }
         default:
             cout << "Unhandled key press " << key << "." << endl;        

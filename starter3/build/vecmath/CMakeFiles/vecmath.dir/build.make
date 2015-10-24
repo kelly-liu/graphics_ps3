@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kellyliu/Documents/Senior/837/starter3
+CMAKE_SOURCE_DIR = //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kellyliu/Documents/Senior/837/starter3/build
+CMAKE_BINARY_DIR = //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build
 
 # Include any dependencies generated for this target.
 include vecmath/CMakeFiles/vecmath.dir/depend.make
@@ -59,16 +59,16 @@ include vecmath/CMakeFiles/vecmath.dir/flags.make
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix2f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/src/Matrix2f.cpp.o: ../vecmath/src/Matrix2f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kellyliu/Documents/Senior/837/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Matrix2f.cpp.o"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Matrix2f.cpp.o -c /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Matrix2f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Matrix2f.cpp.o"
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Matrix2f.cpp.o -c //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Matrix2f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix2f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/src/Matrix2f.cpp.i"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Matrix2f.cpp > CMakeFiles/vecmath.dir/src/Matrix2f.cpp.i
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Matrix2f.cpp > CMakeFiles/vecmath.dir/src/Matrix2f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix2f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/src/Matrix2f.cpp.s"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Matrix2f.cpp -o CMakeFiles/vecmath.dir/src/Matrix2f.cpp.s
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Matrix2f.cpp -o CMakeFiles/vecmath.dir/src/Matrix2f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix2f.cpp.o.requires:
 
@@ -83,16 +83,16 @@ vecmath/CMakeFiles/vecmath.dir/src/Matrix2f.cpp.o.provides.build: vecmath/CMakeF
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix3f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/src/Matrix3f.cpp.o: ../vecmath/src/Matrix3f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kellyliu/Documents/Senior/837/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Matrix3f.cpp.o"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Matrix3f.cpp.o -c /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Matrix3f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Matrix3f.cpp.o"
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Matrix3f.cpp.o -c //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Matrix3f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix3f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/src/Matrix3f.cpp.i"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Matrix3f.cpp > CMakeFiles/vecmath.dir/src/Matrix3f.cpp.i
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Matrix3f.cpp > CMakeFiles/vecmath.dir/src/Matrix3f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix3f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/src/Matrix3f.cpp.s"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Matrix3f.cpp -o CMakeFiles/vecmath.dir/src/Matrix3f.cpp.s
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Matrix3f.cpp -o CMakeFiles/vecmath.dir/src/Matrix3f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix3f.cpp.o.requires:
 
@@ -107,16 +107,16 @@ vecmath/CMakeFiles/vecmath.dir/src/Matrix3f.cpp.o.provides.build: vecmath/CMakeF
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix4f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/src/Matrix4f.cpp.o: ../vecmath/src/Matrix4f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kellyliu/Documents/Senior/837/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Matrix4f.cpp.o"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Matrix4f.cpp.o -c /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Matrix4f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Matrix4f.cpp.o"
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Matrix4f.cpp.o -c //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Matrix4f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix4f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/src/Matrix4f.cpp.i"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Matrix4f.cpp > CMakeFiles/vecmath.dir/src/Matrix4f.cpp.i
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Matrix4f.cpp > CMakeFiles/vecmath.dir/src/Matrix4f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix4f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/src/Matrix4f.cpp.s"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Matrix4f.cpp -o CMakeFiles/vecmath.dir/src/Matrix4f.cpp.s
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Matrix4f.cpp -o CMakeFiles/vecmath.dir/src/Matrix4f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/src/Matrix4f.cpp.o.requires:
 
@@ -131,16 +131,16 @@ vecmath/CMakeFiles/vecmath.dir/src/Matrix4f.cpp.o.provides.build: vecmath/CMakeF
 
 vecmath/CMakeFiles/vecmath.dir/src/Quat4f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/src/Quat4f.cpp.o: ../vecmath/src/Quat4f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kellyliu/Documents/Senior/837/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Quat4f.cpp.o"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Quat4f.cpp.o -c /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Quat4f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Quat4f.cpp.o"
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Quat4f.cpp.o -c //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Quat4f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/src/Quat4f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/src/Quat4f.cpp.i"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Quat4f.cpp > CMakeFiles/vecmath.dir/src/Quat4f.cpp.i
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Quat4f.cpp > CMakeFiles/vecmath.dir/src/Quat4f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/src/Quat4f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/src/Quat4f.cpp.s"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Quat4f.cpp -o CMakeFiles/vecmath.dir/src/Quat4f.cpp.s
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Quat4f.cpp -o CMakeFiles/vecmath.dir/src/Quat4f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/src/Quat4f.cpp.o.requires:
 
@@ -155,16 +155,16 @@ vecmath/CMakeFiles/vecmath.dir/src/Quat4f.cpp.o.provides.build: vecmath/CMakeFil
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector2f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/src/Vector2f.cpp.o: ../vecmath/src/Vector2f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kellyliu/Documents/Senior/837/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Vector2f.cpp.o"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Vector2f.cpp.o -c /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Vector2f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Vector2f.cpp.o"
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Vector2f.cpp.o -c //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Vector2f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector2f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/src/Vector2f.cpp.i"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Vector2f.cpp > CMakeFiles/vecmath.dir/src/Vector2f.cpp.i
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Vector2f.cpp > CMakeFiles/vecmath.dir/src/Vector2f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector2f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/src/Vector2f.cpp.s"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Vector2f.cpp -o CMakeFiles/vecmath.dir/src/Vector2f.cpp.s
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Vector2f.cpp -o CMakeFiles/vecmath.dir/src/Vector2f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector2f.cpp.o.requires:
 
@@ -179,16 +179,16 @@ vecmath/CMakeFiles/vecmath.dir/src/Vector2f.cpp.o.provides.build: vecmath/CMakeF
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector3f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/src/Vector3f.cpp.o: ../vecmath/src/Vector3f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kellyliu/Documents/Senior/837/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Vector3f.cpp.o"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Vector3f.cpp.o -c /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Vector3f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Vector3f.cpp.o"
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Vector3f.cpp.o -c //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Vector3f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector3f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/src/Vector3f.cpp.i"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Vector3f.cpp > CMakeFiles/vecmath.dir/src/Vector3f.cpp.i
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Vector3f.cpp > CMakeFiles/vecmath.dir/src/Vector3f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector3f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/src/Vector3f.cpp.s"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Vector3f.cpp -o CMakeFiles/vecmath.dir/src/Vector3f.cpp.s
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Vector3f.cpp -o CMakeFiles/vecmath.dir/src/Vector3f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector3f.cpp.o.requires:
 
@@ -203,16 +203,16 @@ vecmath/CMakeFiles/vecmath.dir/src/Vector3f.cpp.o.provides.build: vecmath/CMakeF
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector4f.cpp.o: vecmath/CMakeFiles/vecmath.dir/flags.make
 vecmath/CMakeFiles/vecmath.dir/src/Vector4f.cpp.o: ../vecmath/src/Vector4f.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kellyliu/Documents/Senior/837/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Vector4f.cpp.o"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Vector4f.cpp.o -c /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Vector4f.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=//Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object vecmath/CMakeFiles/vecmath.dir/src/Vector4f.cpp.o"
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vecmath.dir/src/Vector4f.cpp.o -c //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Vector4f.cpp
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector4f.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vecmath.dir/src/Vector4f.cpp.i"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Vector4f.cpp > CMakeFiles/vecmath.dir/src/Vector4f.cpp.i
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Vector4f.cpp > CMakeFiles/vecmath.dir/src/Vector4f.cpp.i
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector4f.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vecmath.dir/src/Vector4f.cpp.s"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/kellyliu/Documents/Senior/837/starter3/vecmath/src/Vector4f.cpp -o CMakeFiles/vecmath.dir/src/Vector4f.cpp.s
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath/src/Vector4f.cpp -o CMakeFiles/vecmath.dir/src/Vector4f.cpp.s
 
 vecmath/CMakeFiles/vecmath.dir/src/Vector4f.cpp.o.requires:
 
@@ -247,9 +247,9 @@ vecmath/libvecmath.a: vecmath/CMakeFiles/vecmath.dir/src/Vector3f.cpp.o
 vecmath/libvecmath.a: vecmath/CMakeFiles/vecmath.dir/src/Vector4f.cpp.o
 vecmath/libvecmath.a: vecmath/CMakeFiles/vecmath.dir/build.make
 vecmath/libvecmath.a: vecmath/CMakeFiles/vecmath.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kellyliu/Documents/Senior/837/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libvecmath.a"
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && $(CMAKE_COMMAND) -P CMakeFiles/vecmath.dir/cmake_clean_target.cmake
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vecmath.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=//Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libvecmath.a"
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && $(CMAKE_COMMAND) -P CMakeFiles/vecmath.dir/cmake_clean_target.cmake
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vecmath.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 vecmath/CMakeFiles/vecmath.dir/build: vecmath/libvecmath.a
@@ -267,10 +267,10 @@ vecmath/CMakeFiles/vecmath.dir/requires: vecmath/CMakeFiles/vecmath.dir/src/Vect
 .PHONY : vecmath/CMakeFiles/vecmath.dir/requires
 
 vecmath/CMakeFiles/vecmath.dir/clean:
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath && $(CMAKE_COMMAND) -P CMakeFiles/vecmath.dir/cmake_clean.cmake
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath && $(CMAKE_COMMAND) -P CMakeFiles/vecmath.dir/cmake_clean.cmake
 .PHONY : vecmath/CMakeFiles/vecmath.dir/clean
 
 vecmath/CMakeFiles/vecmath.dir/depend:
-	cd /Users/kellyliu/Documents/Senior/837/starter3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kellyliu/Documents/Senior/837/starter3 /Users/kellyliu/Documents/Senior/837/starter3/vecmath /Users/kellyliu/Documents/Senior/837/starter3/build /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath /Users/kellyliu/Documents/Senior/837/starter3/build/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake --color=$(COLOR)
+	cd //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3 //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/vecmath //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath //Users/kellyliu/Documents/Senior/837/graphics_ps3/starter3/build/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vecmath/CMakeFiles/vecmath.dir/depend
 

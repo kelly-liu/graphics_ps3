@@ -14,6 +14,7 @@ ClothSystem::ClothSystem()
 	*/
 vector<Vector3f> ClothSystem::evalF(vector<Vector3f> state)
 {
+	
 	return vector<Vector3f>();
 }
 
